@@ -104,11 +104,25 @@ console.log(feed);
 
 //Ejercicio 18: Lista de Invitados VIP
 let invitados = ["Carlos", "Beatriz", "David", "Ana"];
+console.log(invitados);
 invitados.sort();
+console.log(invitados);
 invitados.splice(1,1);
 console.log(invitados);
 
 //Ejercicio 19: Tablero de Juego (Fill)
 let tablero = ["Inicio", null, null, null, null, "Fin"];
+console.log(tablero);
 tablero.fill("Casilla Vacía",1,5);
 console.log(tablero);
+
+//Ejercicio 20: Desafío Final (Combinado)
+let codigos = ["A-10", "C-30", "B-20", "D-40"];
+codigos.sort();
+console.log(codigos);
+codigos.splice(2,1);
+console.log(codigos);
+codigos.unshift("X-99");
+console.log(codigos);
+codigos.reverse();
+console.log(codigos);
