@@ -94,4 +94,10 @@ console.log(equipo);
 let parking = ["CarroA", "Libre", "Libre", "CarroB"];
 parking.shift();
 parking.splice(0,2,"MotoA","MotoB");
-console.log(parking)
+console.log(parking);
+ 
+//Ejercicio 17: Manejo de Feed (Red Social)
+let feed = ["Foto de Ana", "Video de Juan", "Noticia de Empresa"];
+feed.unshift("Alerta de Sistema");
+feed.pop();
+console.log(feed);
