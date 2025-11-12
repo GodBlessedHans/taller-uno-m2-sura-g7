@@ -56,4 +56,11 @@ console.log(estudiantes);
 //Ejercicio 10: Vaciar un Arreglo (Fill)
 let puntuaciones = [100, 85, 92, 78];
 puntuaciones.fill(0);
-console.log(puntuaciones)
+console.log(puntuaciones);
+
+ //Ejercicio 11: Carrito de Compras (Combinado)
+ let carrito = [];
+ carrito.push("Camisa","Pantalón");
+ carrito.unshift("Zapatos");
+ carrito.splice(1,1);
+ console.log(carrito);
