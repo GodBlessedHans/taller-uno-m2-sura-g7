@@ -9,8 +9,8 @@ console.log(compras);
 let tareas = ["Revisar emails"];
 tareas.unshift("Llamar al cliente");
 tareas.unshift("Preparar reporte");
-tareas.splice(0,1);
-tareas.splice(0,1);//Al eliminar la anterior tarea, la siguiente ocupa la posicion 0
+tareas.shift();
+tareas.shift();
 console.log(tareas);
 
 //Ejercicio 3: Pila de Historial (LIFO)
@@ -18,3 +18,10 @@ let historial = ["google.com" , "youtube.com" , "facebook.com"];
 historial.pop();
 historial.pop();
 console.log(historial);
+
+//Ejercicio 4: Cola de Impresión (FIFO)
+let colaImpresion = ["doc1.pdf", "doc2.png", "doc3.jpg"];
+colaImpresion.shift();
+colaImpresion.push("doc4.txt");
+colaImpresion.shift();
+console.log(colaImpresion)
