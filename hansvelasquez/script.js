@@ -11,4 +11,10 @@ tareas.unshift("Llamar al cliente");
 tareas.unshift("Preparar reporte");
 tareas.splice(0,1);
 tareas.splice(0,1);//Al eliminar la anterior tarea, la siguiente ocupa la posicion 0
-console.log(tareas)
+console.log(tareas);
+
+//Ejercicio 3: Pila de Historial (LIFO)
+let historial = ["google.com" , "youtube.com" , "facebook.com"];
+historial.pop();
+historial.pop();
+console.log(historial);
