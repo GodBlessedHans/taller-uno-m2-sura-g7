@@ -58,16 +58,22 @@ let puntuaciones = [100, 85, 92, 78];
 puntuaciones.fill(0);
 console.log(puntuaciones);
 
- //Ejercicio 11: Carrito de Compras (Combinado)
- let carrito = [];
- carrito.push("Camisa","Pantalón");
- carrito.unshift("Zapatos");
- carrito.splice(1,1);
- console.log(carrito);
+//Ejercicio 11: Carrito de Compras (Combinado)
+let carrito = [];
+carrito.push("Camisa","Pantalón");
+carrito.unshift("Zapatos");
+carrito.splice(1,1);
+console.log(carrito);
 
- //Ejercicio 12: Control de Versiones (Simple)
- let commits = ["v1.0", "v1.1"];
- commits.push("v1.2")
- commits.pop();
- commits.push("v1.2-corregido");
- console.log(commits);
+//Ejercicio 12: Control de Versiones (Simple)
+let commits = ["v1.0", "v1.1"];
+commits.push("v1.2")
+commits.pop();
+commits.push("v1.2-corregido");
+console.log(commits);
+
+//Ejercicio 13: Receta de Cocina
+let receta = ["Paso 2: Mezclar ingredientes", "Paso 3: Hornear"];
+receta.unshift("Paso 1: Pre-calentar horno");
+receta.push("Paso 4: Servir");
+console.log(receta)
